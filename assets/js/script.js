@@ -28,3 +28,38 @@ for (let i = 0; i < racingBikes.length; i++) {
     }
 };
 console.log(lightBike);
+
+// TASK 2
+const soccerTeams = [
+  {
+    name: "blue",
+    goals: 0,
+    fouls: 0
+  },
+  {
+    name: "red",
+    goals: 0,
+    fouls: 0
+  },
+  {
+    name: "violet",
+    goals: 0,
+    fouls: 0
+  },
+  {
+    name: "purple",
+    goals: 0,
+    fouls: 0
+  },
+  {
+    name: "cyan",
+    goals: 0,
+    fouls: 0
+  }
+];
+
+for (let i = 0; i < soccerTeams.length; i++) {
+  soccerTeams[i].goals = Math.floor(Math.random() * 250)
+  soccerTeams[i].fouls = Math.floor(Math.random() * 250)
+}
+console.log(soccerTeams);
