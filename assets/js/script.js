@@ -63,3 +63,14 @@ for (let i = 0; i < soccerTeams.length; i++) {
   soccerTeams[i].fouls = Math.floor(Math.random() * 250)
 }
 console.log(soccerTeams);
+
+const namesFouls = [];
+
+for (let i = 0; i < soccerTeams.length; i++) {
+ namesFouls.push({
+  name: soccerTeams[i].name,
+  fouls: soccerTeams[i].fouls
+ })
+};
+
+console.log(namesFouls);
